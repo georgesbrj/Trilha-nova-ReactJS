@@ -1,4 +1,5 @@
 import styles from "./Post.module.css";
+import { Comment } from "./Comment";
 
 export function Post() {
   return (
@@ -23,10 +24,9 @@ export function Post() {
         <p>Fala galeraa</p>
         <p>
           Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
-          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare{" "}
+          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare
         </p>
         <p>
-          {" "}
           <a href=""> 👉 jane.design/doctorca</a>
         </p>
         <p>
@@ -35,13 +35,20 @@ export function Post() {
         </p>
       </div>
 
-      <form className={styles.comentForm}>
-          <strong>Deixe seu feedback</strong>
-          <textarea
-            placeholder="Deixe um comentario"
-          />
-          <button type="submit">Comentar</button>
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+        <textarea placeholder="Deixe um comentario" />
+
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
       </form>
+
+      <div className={styles.commentList}>
+        <Comment />
+        <Comment />
+        <Comment />
+      </div>
     </article>
   );
 }

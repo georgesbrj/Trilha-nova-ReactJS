@@ -5,7 +5,6 @@ import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 import { Post } from "./components/Post";
  
- 
 
 function App() {
   return (
@@ -22,6 +21,7 @@ function App() {
             author="George Bezerra"
             content="Um post Legal"
           />
+       
        </main>
      </div>
     </>

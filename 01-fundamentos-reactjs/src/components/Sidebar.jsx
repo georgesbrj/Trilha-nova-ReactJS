@@ -12,8 +12,7 @@ export function Sidebar() {
         <strong>George Bezerra</strong>
         <span>Web Developer</span>
       </div>
-      <footer>
-          
+      <footer>          
         <a href="#"><PencilLine size={20}/> Editar seu perfil</a>
       </footer>
     </aside>
