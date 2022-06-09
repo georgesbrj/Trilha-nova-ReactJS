@@ -37,9 +37,9 @@ const posts  = [
      {
       id: 3 ,
       author: {
-           avatarUrl: 'https://github.com/maykbrito.png',
-           name:'Mayk Brito',
-           role: 'aducato@rocketseat'  
+           avatarUrl: 'https://github.com/georgesbrj.png',
+           name:'George Bezerra',
+           role: 'aluno@rocketseat'  
       },
       content: [
             {type:'paragraph',content:'Fala galeraa 👏' },
