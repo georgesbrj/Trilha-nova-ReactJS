@@ -21,7 +21,7 @@ const [likeCount,setLikeCount] = useState(0);
 
    return(
        <div className={styles.comment}> 
-           <Avatar hasBorder={false}  src="https://github.com/maybrito.png" />
+           <Avatar hasBorder={false}  src="https://github.com/georgesbrj.png" />
           <div className={styles.commentBox}>
             <div className={styles.commentContent}>
                 <header>
