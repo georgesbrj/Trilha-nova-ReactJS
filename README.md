@@ -4,4 +4,4 @@ Essa trilha de react js  foi regravada e esta no conteudo novo do ignite (para r
 ## Ignite Feed
 
 
-![feed](https://github.com/georgesbrj/Trilha-nova-ReactJS/tree/master/01-fundamentos-reactjs/src/assets/feed.png)
+![feed](https://github.com/georgesbrj/Trilha-nova-ReactJS/blob/master/01-fundamentos-reactjs/src/assets/feed.png)
